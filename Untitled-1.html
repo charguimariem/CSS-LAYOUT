@@ -1,0 +1,215 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docplanner Group</title>
+    <link rel="icon" href="https://www.docplanner.com/img/sygnet.png" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* introduction section*/
+
+.introduction {
+  margin: 10% 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*heading*/
+.introduction h1 {
+  font-size: 2.125rem;
+  color: #ddc80c;
+  font-weight: 250;
+  letter-spacing: -0.3px;
+}
+/* we apply the display flex on the div tag so that the content will be in line*/
+.introduction div {
+  display: flex;
+  justify-content: space-around;
+}
+.introduction div p {
+  width: 45%;
+  line-height: 1.5;
+  color: #747474;
+  font-weight: 400;
+}
+/*countries section*/
+.countries {
+  margin: 2% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 0;
+}
+.country {
+  margin-bottom: 2%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.country div {
+  /* Position */
+  display: flex;
+  justify-content: space-between;
+  /* Box model */
+  padding: 4%;
+}
+.country p {
+  color: #747474;
+  font-weight: 400;
+}
+.country:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*button*/
+button {
+  border: none;
+  background-color: blue;
+  width: 130px;
+  height: 30px;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+}
+    </style>
+
+<nav class="main-header">
+  <div class="section__inner">
+
+      <button type="button" class="hamburger">
+          <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+          </span>
+      </button>
+      <nav class="main-nav">
+          <ul class="main-menu">
+              <li><a href="/about-us"class="is-current">About us</a></li>
+              <li><a href="/career" >Career</a></li>
+              <li class="dropdown">
+                  <a >
+                      Departments<br/>
+                  </a>
+                  <div class="dropdown-content">
+                      <ul>
+                          <li><a href="/department?dep=marketing">Marketing &amp; PR</a></li>
+                          <li><a href="/department?dep=customer">Customer Success & Sales</a></li>
+                          <li><a href="/department?dep=it">IT, Product, Data</a></li>
+                          <li><a href="/department?dep=finance">Finance &amp; Administration</a></li>
+                          <li><a href="/department?dep=hr">HR &amp; more</a></li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+  </div>
+</nav>
+
+
+  </head>
+  <body>
+    <main>
+      <!--introduction section -->
+      <section class="introduction">
+        <!--docplanner logo-->
+        <img src="https://www.docplanner.com/img/sygnet.png" alt="logo" /></br>
+        <h1>Making the healthcare experience more human</h1></br>
+        <div>
+          <p>
+            We want patients to find the perfect doctor and book an appointment
+            in the most easy way. The patient journey should be enjoyable, and
+            that's why we are always next to them: to help them find the best
+            possible care. Anytime, anywhere.
+          </p>
+          <p>
+            We also help doctors to better manage their practice and build their
+            online reputation. With our integrated end-to-end solution, doctors
+            are able not only to improve their online presence, but also to
+            devote their time to what really matters: their patients.
+          </p>
+        </div>
+      </section>
+      <!--countries-->
+      <section class="countries">
+        <!--country box where we put in an image tag, a div tag where there is the p tag and the button -->
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+        <div class="country">
+          <img
+            src="https://www.docplanner.com/images/istanbul.png"
+            alt="istanbul"
+          />
+          <div>
+            <p>istanbul</p>
+            <button>See openings</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
